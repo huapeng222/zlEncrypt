@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'zlEncrypt_Example' do
+  pod 'zlEncrypt', :path => '../'
+
+  target 'zlEncrypt_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

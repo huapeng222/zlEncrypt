@@ -1,0 +1,6 @@
+framework module zlEncrypt {
+  umbrella header "zlEncrypt-umbrella.h"
+
+  export *
+  module * { export * }
+}

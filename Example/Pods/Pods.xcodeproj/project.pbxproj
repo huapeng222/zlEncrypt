@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1008E972B08398110E2FE0E07D4C17F8 /* zlEncrypt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 025E3DE98E9DE3B39566231C5BF0CBFA /* zlEncrypt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		239ADB0B63B8BEDDE026CEAC77C773E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3F9AD2F5A24E8C16894D4DE0BE152E4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4274209653ACD596A127FFB4D8270FF7 /* zlEncrypt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A41A21C5ACE74037247DDA12197FA /* zlEncrypt-dummy.m */; };
+		48D4084D1CBFBDBD7A4A94835CDDFC49 /* ZLEncrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B5508D09B1EED4B2199DAA6AC12AEC /* ZLEncrypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89AEC90A797A8EC2490448D6E22A3662 /* ZLEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ACAD506B798FCB26E2AD00659803B6 /* ZLEncrypt.m */; };
+		8DF870DE340EDAEB0EFA3062085E04BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8F80A64260E89EF79C36EE6CA8AE3BD9 /* Pods-zlEncrypt_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FFF93EC0E8CFD41813B60260EA90828 /* Pods-zlEncrypt_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		909CC38430196CF758BF844F3AB07068 /* Pods-zlEncrypt_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D03C415F1DD37CB9EB5401B581E3C /* Pods-zlEncrypt_Tests-dummy.m */; };
+		BF43FB3BE281AF556DCCE065E7741631 /* Pods-zlEncrypt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB6B758D1539E7CB7A6B195528B9638 /* Pods-zlEncrypt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C234F8AABE70E147F0922E59FA02C691 /* ZLRsaUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 287B38160810B385564DF26156D264BB /* ZLRsaUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7CEF9B356B780B071E82602293DD4E2 /* Pods-zlEncrypt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3093BD346C8A4CF57D6A61D064E9E5 /* Pods-zlEncrypt_Example-dummy.m */; };
+		DF60C0E9E33998DFE102C0DF0B808C1E /* NSData+ZLEncryption.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D1B7AA04A9B04F517BE1414E8C86B4 /* NSData+ZLEncryption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2F025FE5FD6CAF92F43BDFE0DF2089C /* NSData+ZLEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A5DDBDF3794E09FD23FC7A2E57FA4F /* NSData+ZLEncryption.m */; };
+		F7D643C77E0CA0722EA354858428448D /* ZLRsaUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B47F194BF3A27F259D70F845AA2C83B4 /* ZLRsaUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B6D756E5D37715CF2D9124D02309D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5EAF3A405DFD7E4271E2CC75FBC75A4;
+			remoteInfo = zlEncrypt;
+		};
+		869D656BF80A53EDC397897B99543F7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B02CDA4BE309A6AEC531BB28EB9C3E5;
+			remoteInfo = "Pods-zlEncrypt_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DD82FAA1B657C07E6562E60D20F7C8 /* Pods_zlEncrypt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_zlEncrypt_Example.framework; path = "Pods-zlEncrypt_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		025E3DE98E9DE3B39566231C5BF0CBFA /* zlEncrypt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zlEncrypt-umbrella.h"; sourceTree = "<group>"; };
+		07E27417BB75DFDC02CF10F7F40368E6 /* Pods-zlEncrypt_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zlEncrypt_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		19E28675DE3D2ABCB59F43BE9D37BEBF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1F0CCD773F3336E83D25DD07A8C029D7 /* Pods-zlEncrypt_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-zlEncrypt_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		251AC5A74497D43BA1342E0A80EC323C /* Pods-zlEncrypt_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-zlEncrypt_Tests.modulemap"; sourceTree = "<group>"; };
+		26D2CD94E6FAF0692CEAC9941E14F2F0 /* zlEncrypt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = zlEncrypt.debug.xcconfig; sourceTree = "<group>"; };
+		2854849D4CD72E9F3FE12767006DF908 /* Pods-zlEncrypt_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-zlEncrypt_Example-frameworks.sh"; sourceTree = "<group>"; };
+		287B38160810B385564DF26156D264BB /* ZLRsaUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLRsaUtil.h; sourceTree = "<group>"; };
+		2C3093BD346C8A4CF57D6A61D064E9E5 /* Pods-zlEncrypt_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-zlEncrypt_Example-dummy.m"; sourceTree = "<group>"; };
+		2FFF93EC0E8CFD41813B60260EA90828 /* Pods-zlEncrypt_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-zlEncrypt_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33FC5C7A7BB59B4D9FB59056177DFE6E /* Pods-zlEncrypt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zlEncrypt_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3E4D03C415F1DD37CB9EB5401B581E3C /* Pods-zlEncrypt_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-zlEncrypt_Tests-dummy.m"; sourceTree = "<group>"; };
+		42B8C0A6B49BFA69609CE13746DCD838 /* zlEncrypt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = zlEncrypt.release.xcconfig; sourceTree = "<group>"; };
+		432F7351C21436C1DC7FE22B86FFAE86 /* Pods-zlEncrypt_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zlEncrypt_Example-Info.plist"; sourceTree = "<group>"; };
+		475195562DE3D1166B4E7522FF2B573F /* Pods-zlEncrypt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zlEncrypt_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5465522043C8CACC011B10778E1C58C9 /* Pods-zlEncrypt_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-zlEncrypt_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55E490CEC0DBB09DFB4A1F931CB85D84 /* Pods-zlEncrypt_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zlEncrypt_Tests-Info.plist"; sourceTree = "<group>"; };
+		57ACAD506B798FCB26E2AD00659803B6 /* ZLEncrypt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLEncrypt.m; sourceTree = "<group>"; };
+		64C91441248672040C380AD05A5ABE86 /* zlEncrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = zlEncrypt.framework; path = zlEncrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D1B7AA04A9B04F517BE1414E8C86B4 /* NSData+ZLEncryption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+ZLEncryption.h"; sourceTree = "<group>"; };
+		6B74B72B5C2DD3288EB84FFADB8BD47F /* Pods-zlEncrypt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zlEncrypt_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6EB6B758D1539E7CB7A6B195528B9638 /* Pods-zlEncrypt_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-zlEncrypt_Example-umbrella.h"; sourceTree = "<group>"; };
+		84B5508D09B1EED4B2199DAA6AC12AEC /* ZLEncrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLEncrypt.h; sourceTree = "<group>"; };
+		8A2A41A21C5ACE74037247DDA12197FA /* zlEncrypt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "zlEncrypt-dummy.m"; sourceTree = "<group>"; };
+		94AA077724388BEEB9A3E46CB9698995 /* Pods-zlEncrypt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zlEncrypt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9526FF6F16A236C9CD43BD8B212462B2 /* Pods-zlEncrypt_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zlEncrypt_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A17B9A2EABFBC29A50FCC69AD94DAE86 /* zlEncrypt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zlEncrypt-prefix.pch"; sourceTree = "<group>"; };
+		A62F9F64C3BDC18A00BF2324BBA66490 /* Pods_zlEncrypt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_zlEncrypt_Tests.framework; path = "Pods-zlEncrypt_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A648E9E0B1D1835719DF6F5E89E366C4 /* zlEncrypt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = zlEncrypt.modulemap; sourceTree = "<group>"; };
+		B47F194BF3A27F259D70F845AA2C83B4 /* ZLRsaUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLRsaUtil.m; sourceTree = "<group>"; };
+		BA9D09B33C039DFDA625E30B60D2782E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D2B9308586204E5C164A66ED30665E52 /* zlEncrypt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = zlEncrypt.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E1A5DDBDF3794E09FD23FC7A2E57FA4F /* NSData+ZLEncryption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+ZLEncryption.m"; sourceTree = "<group>"; };
+		F984FD28813F4EF1349E0BB362301BC0 /* Pods-zlEncrypt_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-zlEncrypt_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3534EF10E70125780ECE0AFE91F0F9A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF870DE340EDAEB0EFA3062085E04BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800D8C67291A2EABFF69B1DD212C185A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9AD2F5A24E8C16894D4DE0BE152E4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5670B2F83249325FF325AC0CFC00D11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239ADB0B63B8BEDDE026CEAC77C773E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		207D09EB1CE454430F4AE54DC4DF5CD5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB116D3EF5523351E5020731B545A450 /* zlEncrypt */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3EB3A2F32305C83E83827CD3B857A918 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01DD82FAA1B657C07E6562E60D20F7C8 /* Pods_zlEncrypt_Example.framework */,
+				A62F9F64C3BDC18A00BF2324BBA66490 /* Pods_zlEncrypt_Tests.framework */,
+				64C91441248672040C380AD05A5ABE86 /* zlEncrypt.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C6E70F704CCCC071BE79F37D2EE4D5B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A648E9E0B1D1835719DF6F5E89E366C4 /* zlEncrypt.modulemap */,
+				8A2A41A21C5ACE74037247DDA12197FA /* zlEncrypt-dummy.m */,
+				A17B9A2EABFBC29A50FCC69AD94DAE86 /* zlEncrypt-prefix.pch */,
+				025E3DE98E9DE3B39566231C5BF0CBFA /* zlEncrypt-umbrella.h */,
+				26D2CD94E6FAF0692CEAC9941E14F2F0 /* zlEncrypt.debug.xcconfig */,
+				42B8C0A6B49BFA69609CE13746DCD838 /* zlEncrypt.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/zlEncrypt";
+			sourceTree = "<group>";
+		};
+		6BB67C656F972F47CF1C617AED77C67C /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				287B38160810B385564DF26156D264BB /* ZLRsaUtil.h */,
+				B47F194BF3A27F259D70F845AA2C83B4 /* ZLRsaUtil.m */,
+			);
+			name = RSA;
+			path = zlEncrypt/Classes/RSA;
+			sourceTree = "<group>";
+		};
+		782DC439F0DC606D08EFD4B3D855670B /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				65D1B7AA04A9B04F517BE1414E8C86B4 /* NSData+ZLEncryption.h */,
+				E1A5DDBDF3794E09FD23FC7A2E57FA4F /* NSData+ZLEncryption.m */,
+				84B5508D09B1EED4B2199DAA6AC12AEC /* ZLEncrypt.h */,
+				57ACAD506B798FCB26E2AD00659803B6 /* ZLEncrypt.m */,
+			);
+			name = NSData;
+			path = zlEncrypt/Classes/NSData;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C79AB759EBF72337A1C3DAB0BC2A99F1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E373562A4A07A35718CE3C3ABF6836D2 /* Pods-zlEncrypt_Example */,
+				F381E3C13352C65E639A4E453CC0A8D5 /* Pods-zlEncrypt_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				207D09EB1CE454430F4AE54DC4DF5CD5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3EB3A2F32305C83E83827CD3B857A918 /* Products */,
+				C79AB759EBF72337A1C3DAB0BC2A99F1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC0DF821505FF8DA3FD9A1AEF0534F83 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BA9D09B33C039DFDA625E30B60D2782E /* LICENSE */,
+				19E28675DE3D2ABCB59F43BE9D37BEBF /* README.md */,
+				D2B9308586204E5C164A66ED30665E52 /* zlEncrypt.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E373562A4A07A35718CE3C3ABF6836D2 /* Pods-zlEncrypt_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F984FD28813F4EF1349E0BB362301BC0 /* Pods-zlEncrypt_Example.modulemap */,
+				5465522043C8CACC011B10778E1C58C9 /* Pods-zlEncrypt_Example-acknowledgements.markdown */,
+				07E27417BB75DFDC02CF10F7F40368E6 /* Pods-zlEncrypt_Example-acknowledgements.plist */,
+				2C3093BD346C8A4CF57D6A61D064E9E5 /* Pods-zlEncrypt_Example-dummy.m */,
+				2854849D4CD72E9F3FE12767006DF908 /* Pods-zlEncrypt_Example-frameworks.sh */,
+				432F7351C21436C1DC7FE22B86FFAE86 /* Pods-zlEncrypt_Example-Info.plist */,
+				6EB6B758D1539E7CB7A6B195528B9638 /* Pods-zlEncrypt_Example-umbrella.h */,
+				475195562DE3D1166B4E7522FF2B573F /* Pods-zlEncrypt_Example.debug.xcconfig */,
+				33FC5C7A7BB59B4D9FB59056177DFE6E /* Pods-zlEncrypt_Example.release.xcconfig */,
+			);
+			name = "Pods-zlEncrypt_Example";
+			path = "Target Support Files/Pods-zlEncrypt_Example";
+			sourceTree = "<group>";
+		};
+		F381E3C13352C65E639A4E453CC0A8D5 /* Pods-zlEncrypt_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				251AC5A74497D43BA1342E0A80EC323C /* Pods-zlEncrypt_Tests.modulemap */,
+				1F0CCD773F3336E83D25DD07A8C029D7 /* Pods-zlEncrypt_Tests-acknowledgements.markdown */,
+				9526FF6F16A236C9CD43BD8B212462B2 /* Pods-zlEncrypt_Tests-acknowledgements.plist */,
+				3E4D03C415F1DD37CB9EB5401B581E3C /* Pods-zlEncrypt_Tests-dummy.m */,
+				55E490CEC0DBB09DFB4A1F931CB85D84 /* Pods-zlEncrypt_Tests-Info.plist */,
+				2FFF93EC0E8CFD41813B60260EA90828 /* Pods-zlEncrypt_Tests-umbrella.h */,
+				94AA077724388BEEB9A3E46CB9698995 /* Pods-zlEncrypt_Tests.debug.xcconfig */,
+				6B74B72B5C2DD3288EB84FFADB8BD47F /* Pods-zlEncrypt_Tests.release.xcconfig */,
+			);
+			name = "Pods-zlEncrypt_Tests";
+			path = "Target Support Files/Pods-zlEncrypt_Tests";
+			sourceTree = "<group>";
+		};
+		FB116D3EF5523351E5020731B545A450 /* zlEncrypt */ = {
+			isa = PBXGroup;
+			children = (
+				782DC439F0DC606D08EFD4B3D855670B /* NSData */,
+				DC0DF821505FF8DA3FD9A1AEF0534F83 /* Pod */,
+				6BB67C656F972F47CF1C617AED77C67C /* RSA */,
+				5C6E70F704CCCC071BE79F37D2EE4D5B /* Support Files */,
+			);
+			name = zlEncrypt;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18EA476DFB47B11665E550627D408444 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF60C0E9E33998DFE102C0DF0B808C1E /* NSData+ZLEncryption.h in Headers */,
+				1008E972B08398110E2FE0E07D4C17F8 /* zlEncrypt-umbrella.h in Headers */,
+				48D4084D1CBFBDBD7A4A94835CDDFC49 /* ZLEncrypt.h in Headers */,
+				C234F8AABE70E147F0922E59FA02C691 /* ZLRsaUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		718E522215DE09AF5D84FFA4DADB2DA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F80A64260E89EF79C36EE6CA8AE3BD9 /* Pods-zlEncrypt_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA447FF6D39A44E54DCE62015A0CCE2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF43FB3BE281AF556DCCE065E7741631 /* Pods-zlEncrypt_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3BBAAF37ED3FC7387CF3CDB604101A91 /* Pods-zlEncrypt_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650C2EB35DBBA98A38DE48896BC4B259 /* Build configuration list for PBXNativeTarget "Pods-zlEncrypt_Tests" */;
+			buildPhases = (
+				718E522215DE09AF5D84FFA4DADB2DA0 /* Headers */,
+				44E8EBB5B7E991C4484E41850EDC62A7 /* Sources */,
+				800D8C67291A2EABFF69B1DD212C185A /* Frameworks */,
+				F73B4E967446C8C6BE3D7AFC6773B466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D877CBFD6998AEDBE85098E5623C9A /* PBXTargetDependency */,
+			);
+			name = "Pods-zlEncrypt_Tests";
+			productName = "Pods-zlEncrypt_Tests";
+			productReference = A62F9F64C3BDC18A00BF2324BBA66490 /* Pods_zlEncrypt_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B02CDA4BE309A6AEC531BB28EB9C3E5 /* Pods-zlEncrypt_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B698AF7F2D19347BAC14B8ECFD6CF006 /* Build configuration list for PBXNativeTarget "Pods-zlEncrypt_Example" */;
+			buildPhases = (
+				CA447FF6D39A44E54DCE62015A0CCE2E /* Headers */,
+				7A02F062893E17E1A9ED0E03EE89B173 /* Sources */,
+				3534EF10E70125780ECE0AFE91F0F9A5 /* Frameworks */,
+				309065BC9756B9D5824212BF21681324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47FD354AEB397CC266364D71B0A73B7D /* PBXTargetDependency */,
+			);
+			name = "Pods-zlEncrypt_Example";
+			productName = "Pods-zlEncrypt_Example";
+			productReference = 01DD82FAA1B657C07E6562E60D20F7C8 /* Pods_zlEncrypt_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5EAF3A405DFD7E4271E2CC75FBC75A4 /* zlEncrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA517FE265D9C371A3B54D770A425AE /* Build configuration list for PBXNativeTarget "zlEncrypt" */;
+			buildPhases = (
+				18EA476DFB47B11665E550627D408444 /* Headers */,
+				B08AEA17F4D642A86294520E99753A27 /* Sources */,
+				A5670B2F83249325FF325AC0CFC00D11 /* Frameworks */,
+				BCDEAFAF9241D15655EA8FF5E2C06782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zlEncrypt;
+			productName = zlEncrypt;
+			productReference = 64C91441248672040C380AD05A5ABE86 /* zlEncrypt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3EB3A2F32305C83E83827CD3B857A918 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B02CDA4BE309A6AEC531BB28EB9C3E5 /* Pods-zlEncrypt_Example */,
+				3BBAAF37ED3FC7387CF3CDB604101A91 /* Pods-zlEncrypt_Tests */,
+				C5EAF3A405DFD7E4271E2CC75FBC75A4 /* zlEncrypt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		309065BC9756B9D5824212BF21681324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDEAFAF9241D15655EA8FF5E2C06782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73B4E967446C8C6BE3D7AFC6773B466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44E8EBB5B7E991C4484E41850EDC62A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909CC38430196CF758BF844F3AB07068 /* Pods-zlEncrypt_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A02F062893E17E1A9ED0E03EE89B173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CEF9B356B780B071E82602293DD4E2 /* Pods-zlEncrypt_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08AEA17F4D642A86294520E99753A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F025FE5FD6CAF92F43BDFE0DF2089C /* NSData+ZLEncryption.m in Sources */,
+				4274209653ACD596A127FFB4D8270FF7 /* zlEncrypt-dummy.m in Sources */,
+				89AEC90A797A8EC2490448D6E22A3662 /* ZLEncrypt.m in Sources */,
+				F7D643C77E0CA0722EA354858428448D /* ZLRsaUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47FD354AEB397CC266364D71B0A73B7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = zlEncrypt;
+			target = C5EAF3A405DFD7E4271E2CC75FBC75A4 /* zlEncrypt */;
+			targetProxy = 0B6D756E5D37715CF2D9124D02309D42 /* PBXContainerItemProxy */;
+		};
+		F8D877CBFD6998AEDBE85098E5623C9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-zlEncrypt_Example";
+			target = 4B02CDA4BE309A6AEC531BB28EB9C3E5 /* Pods-zlEncrypt_Example */;
+			targetProxy = 869D656BF80A53EDC397897B99543F7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AC0DFB0BA4874AAA7F5A498A78B40FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D2CD94E6FAF0692CEAC9941E14F2F0 /* zlEncrypt.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/zlEncrypt/zlEncrypt-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/zlEncrypt/zlEncrypt.modulemap";
+				PRODUCT_MODULE_NAME = zlEncrypt;
+				PRODUCT_NAME = zlEncrypt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E32B40785CF62435E9C0AAEAAB0C3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94AA077724388BEEB9A3E46CB9698995 /* Pods-zlEncrypt_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-zlEncrypt_Tests/Pods-zlEncrypt_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-zlEncrypt_Tests/Pods-zlEncrypt_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		80CBB9C604B3DC35D671B2DC9E818EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33FC5C7A7BB59B4D9FB59056177DFE6E /* Pods-zlEncrypt_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-zlEncrypt_Example/Pods-zlEncrypt_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-zlEncrypt_Example/Pods-zlEncrypt_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6B9BB3C14273B375BDBEF9CBD35E14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B8C0A6B49BFA69609CE13746DCD838 /* zlEncrypt.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/zlEncrypt/zlEncrypt-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/zlEncrypt/zlEncrypt.modulemap";
+				PRODUCT_MODULE_NAME = zlEncrypt;
+				PRODUCT_NAME = zlEncrypt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6F09B821512BA6FCFBCCFBDD0840F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B74B72B5C2DD3288EB84FFADB8BD47F /* Pods-zlEncrypt_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-zlEncrypt_Tests/Pods-zlEncrypt_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-zlEncrypt_Tests/Pods-zlEncrypt_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8DDD806381D9000B65D25ED4B9691F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475195562DE3D1166B4E7522FF2B573F /* Pods-zlEncrypt_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-zlEncrypt_Example/Pods-zlEncrypt_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-zlEncrypt_Example/Pods-zlEncrypt_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650C2EB35DBBA98A38DE48896BC4B259 /* Build configuration list for PBXNativeTarget "Pods-zlEncrypt_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E32B40785CF62435E9C0AAEAAB0C3F2 /* Debug */,
+				C6F09B821512BA6FCFBCCFBDD0840F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B698AF7F2D19347BAC14B8ECFD6CF006 /* Build configuration list for PBXNativeTarget "Pods-zlEncrypt_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8DDD806381D9000B65D25ED4B9691F6 /* Debug */,
+				80CBB9C604B3DC35D671B2DC9E818EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA517FE265D9C371A3B54D770A425AE /* Build configuration list for PBXNativeTarget "zlEncrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC0DFB0BA4874AAA7F5A498A78B40FF /* Debug */,
+				C6B9BB3C14273B375BDBEF9CBD35E14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - zlEncrypt (0.1.0)
+
+DEPENDENCIES:
+  - zlEncrypt (from `../`)
+
+EXTERNAL SOURCES:
+  zlEncrypt:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  zlEncrypt: 155f7d2b25f543304737a25ae7731b75d0e51a13
+
+PODFILE CHECKSUM: 47b018abd275d85b7117ee945dc68de0d48b7d84
+
+COCOAPODS: 1.9.1
