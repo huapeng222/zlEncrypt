@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zlEncrypt'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'aes 和rsa加密.'
 
 # This description is used to generate tags and improve search results.
@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/化召鹏/zlEncrypt'
+  s.homepage         = 'https://github.com/huapeng222/zlEncrypt'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '化召鹏' => 'huazhaopeng@zhi-lian.com.cn' }
+  s.author           = { 'huazhaopeng' => 'huazhaopeng@zhi-lian.com.cn' }
   s.source           = { :git => 'https://github.com/huapeng222/zlEncrypt.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
